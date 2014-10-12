@@ -1,0 +1,3 @@
+# view AndroidManifest.xml #generated:29
+-keep class com.bml.geo2.DefaultActivity { <init>(...); }
+

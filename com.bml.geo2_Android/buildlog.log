@@ -1,0 +1,208 @@
+
+<DW>
+____________________
+set ANT_HOME=C:\PROGRA~2\Adobe\ADOBED~2.5\CONFIG~1\NATIVE~1\APACHE~1
+set ANDROID_HOME=C:\Users\Cilop002\Desktop\adt-bundle-windows-x86_64-20140702\sdk
+set JAVA_HOME=C:\PROGRA~2\Adobe\ADOBED~2.5\JDK
+set PATH=%JAVA_HOME%\bin;%PATH%
+cd C:\Users\Cilop002\Desktop\ADT-BU~1\sdk\PLATFO~1
+C:\Users\Cilop002\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe devices
+____________________
+</DW>
+* daemon not running. starting it now on port 5037 *
+* daemon started successfully *
+List of devices attached 
+
+Launching the Android emulator
+<DW>
+____________________
+set ANT_HOME=C:\PROGRA~2\Adobe\ADOBED~2.5\CONFIG~1\NATIVE~1\APACHE~1
+set ANDROID_HOME=C:\Users\Cilop002\Desktop\adt-bundle-windows-x86_64-20140702\sdk
+set JAVA_HOME=C:\PROGRA~2\Adobe\ADOBED~2.5\JDK
+set PATH=%JAVA_HOME%\bin;%PATH%
+cd C:\Users\Cilop002\Desktop\ADT-BU~1\sdk\tools
+C:\WINDOWS\SysWOW64\cmd.exe /u /c "C:\Users\Cilop002\Desktop\adt-bundle-windows-x86_64-20140702\sdk\tools\emulator.exe -partition-size 1024 -cpu-delay 0 -no-boot-anim -avd ADV_Android"
+____________________
+</DW>
+WARNING: no splash screen was specified in app settings. using default.
+Cloning seed app for Android
+<DW>
+____________________
+set ANT_HOME=C:\PROGRA~2\Adobe\ADOBED~2.5\CONFIG~1\NATIVE~1\APACHE~1
+set ANDROID_HOME=C:\Users\Cilop002\Desktop\adt-bundle-windows-x86_64-20140702\sdk
+set JAVA_HOME=C:\PROGRA~2\Adobe\ADOBED~2.5\JDK
+set PATH=%JAVA_HOME%\bin;%PATH%
+cd C:\Users\Cilop002\Desktop\COMBML~1.GEO
+C:\WINDOWS\SysWOW64\cmd.exe /u /c C:\PROGRA~2\Adobe\ADOBED~2.5\CONFIG~1\NATIVE~1\DWPHON~1\android\scripts\droidGap.bat "C:\Program Files (x86)\Adobe\Adobe Dreamweaver CS5.5\Configuration\NativeAppFramework\DWPhoneGap\android\PhoneGapApp" "Geo2" com.bml.geo2 1.0 "C:\Users\Cilop002\Desktop\adt-bundle-windows-x86_64-20140702\sdk"
+____________________
+</DW>
+C Using latest target: 4
+Created project directory: C:\Users\Cilop002\Desktop\com.bml.geo2_Android\com.bml.geo2
+Created directory C:\Users\Cilop002\Desktop\com.bml.geo2_Android\com.bml.geo2\src\com\bml\geo2
+Added file C:\Users\Cilop002\Desktop\com.bml.geo2_Android\com.bml.geo2\src\com\bml\geo2\DefaultActivity.java
+Created directory C:\Users\Cilop002\Desktop\com.bml.geo2_Android\com.bml.geo2\res
+Created directory C:\Users\Cilop002\Desktop\com.bml.geo2_Android\com.bml.geo2\bin
+Created directory C:\Users\Cilop002\Desktop\com.bml.geo2_Android\com.bml.geo2\libs
+Created directory C:\Users\Cilop002\Desktop\com.bml.geo2_Android\com.bml.geo2\res\values
+Added file C:\Users\Cilop002\Desktop\com.bml.geo2_Android\com.bml.geo2\res\values\strings.xml
+Created directory C:\Users\Cilop002\Desktop\com.bml.geo2_Android\com.bml.geo2\res\layout
+Added file C:\Users\Cilop002\Desktop\com.bml.geo2_Android\com.bml.geo2\res\layout\main.xml
+Created directory C:\Users\Cilop002\Desktop\com.bml.geo2_Android\com.bml.geo2\res\drawable-hdpi
+Created directory C:\Users\Cilop002\Desktop\com.bml.geo2_Android\com.bml.geo2\res\drawable-mdpi
+Created directory C:\Users\Cilop002\Desktop\com.bml.geo2_Android\com.bml.geo2\res\drawable-ldpi
+Added file C:\Users\Cilop002\Desktop\com.bml.geo2_Android\com.bml.geo2\AndroidManifest.xml
+Added file C:\Users\Cilop002\Desktop\com.bml.geo2_Android\com.bml.geo2\build.xml
+Added file C:\Users\Cilop002\Desktop\com.bml.geo2_Android\com.bml.geo2\proguard-project.txt
+CLONE SUCCESSFUL
+
+<DW>
+____________________
+set ANT_HOME=C:\PROGRA~2\Adobe\ADOBED~2.5\CONFIG~1\NATIVE~1\APACHE~1
+set ANDROID_HOME=C:\Users\Cilop002\Desktop\adt-bundle-windows-x86_64-20140702\sdk
+set JAVA_HOME=C:\PROGRA~2\Adobe\ADOBED~2.5\JDK
+set PATH=%JAVA_HOME%\bin;%PATH%
+cd C:\Users\Cilop002\Desktop\COMBML~1.GEO
+C:\WINDOWS\SysWOW64\cmd.exe /u /c C:\PROGRA~2\Adobe\ADOBED~2.5\CONFIG~1\NATIVE~1\APACHE~1\bin\ant.bat debug
+____________________
+</DW>
+Buildfile: C:\Users\Cilop002\Desktop\COMBML~1.GEO\build.xml
+
+-set-mode-check:
+
+-set-debug-files:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at C:\Users\Cilop002\Desktop\adt-bundle-windows-x86_64-20140702\sdk
+
+-setup:
+     [echo] Project Name: geo2
+  [gettype] Project Type: Application
+
+-set-debug-mode:
+
+-debug-obfuscation-check:
+
+-pre-build:
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for geo2...
+[gettarget] Project Target:   Google APIs
+[gettarget] Vendor:           Google Inc.
+[gettarget] Platform Version: 4.0
+[gettarget] API level:        14
+     [echo] ----------
+     [echo] Creating output directories if needed...
+    [mkdir] Created dir: C:\Users\Cilop002\Desktop\COMBML~1.GEO\bin\res
+    [mkdir] Created dir: C:\Users\Cilop002\Desktop\COMBML~1.GEO\bin\rsObj
+    [mkdir] Created dir: C:\Users\Cilop002\Desktop\COMBML~1.GEO\bin\rsLibs
+    [mkdir] Created dir: C:\Users\Cilop002\Desktop\COMBML~1.GEO\gen
+    [mkdir] Created dir: C:\Users\Cilop002\Desktop\COMBML~1.GEO\bin\classes
+    [mkdir] Created dir: C:\Users\Cilop002\Desktop\COMBML~1.GEO\bin\dexedLibs
+     [echo] ----------
+     [echo] Resolving Dependencies for geo2...
+[dependency] Library dependencies:
+[dependency] No Libraries
+[dependency] 
+[dependency] ------------------
+[dependency] API<=15: Adding annotations.jar to the classpath.
+     [echo] ----------
+     [echo] Building Libraries with 'debug'...
+   [subant] No sub-builds to iterate on
+
+-code-gen:
+[mergemanifest] Merging AndroidManifest files into one.
+[mergemanifest] Manifest merger disabled. Using project manifest only.
+     [echo] Handling aidl files...
+     [aidl] No AIDL files to compile.
+     [echo] ----------
+     [echo] Handling RenderScript files...
+     [echo] ----------
+     [echo] Handling Resources...
+     [aapt] Generating resource IDs...
+     [echo] ----------
+     [echo] Handling BuildConfig class...
+[buildconfig] Generating BuildConfig class.
+
+-pre-compile:
+
+-compile:
+    [javac] Compiling 3 source files to C:\Users\Cilop002\Desktop\COMBML~1.GEO\bin\classes
+
+-post-compile:
+
+-obfuscate:
+
+-dex:
+      [dex] input: C:\Users\Cilop002\Desktop\COMBML~1.GEO\bin\classes
+      [dex] input: C:\Users\Cilop002\Desktop\adt-bundle-windows-x86_64-20140702\sdk\tools\support\annotations.jar
+      [dex] input: C:\Users\Cilop002\Desktop\COMBML~1.GEO\libs\phonegap.jar
+      [dex] Pre-Dexing C:\Users\Cilop002\Desktop\adt-bundle-windows-x86_64-20140702\sdk\tools\support\annotations.jar -> annotations-688d4401cea02b0ee9eea93e608936bd.jar
+      [dex] Pre-Dexing C:\Users\Cilop002\Desktop\COMBML~1.GEO\libs\phonegap.jar -> phonegap-85d130a547a70fe18f4a059b6a41eacf.jar
+      [dex] Converting compiled files and external libraries into C:\Users\Cilop002\Desktop\COMBML~1.GEO\bin\classes.dex...
+       [dx] Merged dex A (8 defs/2.4KiB) with dex B (2 defs/1.1KiB). Result is 10 defs/3.5KiB. Took 0.1s
+       [dx] Merged dex A (10 defs/3.5KiB) with dex B (60 defs/125.0KiB). Result is 70 defs/156.8KiB. Took 0.1s
+
+-crunch:
+   [crunch] Crunching PNG Files in source dir: C:\Users\Cilop002\Desktop\COMBML~1.GEO\res
+   [crunch] To destination dir: C:\Users\Cilop002\Desktop\COMBML~1.GEO\bin\res
+   [crunch] Processing image to cache: C:\Users\Cilop002\Desktop\COMBML~1.GEO\res\drawable-hdpi\ic_launcher.png => C:\Users\Cilop002\Desktop\COMBML~1.GEO\bin\res\drawable-hdpi\ic_launcher.png
+   [crunch]   (processed image to cache entry C:\Users\Cilop002\Desktop\COMBML~1.GEO\bin\res\drawable-hdpi\ic_launcher.png: 0% size of source)
+   [crunch] Processing image to cache: C:\Users\Cilop002\Desktop\COMBML~1.GEO\res\drawable-hdpi\icon.png => C:\Users\Cilop002\Desktop\COMBML~1.GEO\bin\res\drawable-hdpi\icon.png
+   [crunch]   (processed image to cache entry C:\Users\Cilop002\Desktop\COMBML~1.GEO\bin\res\drawable-hdpi\icon.png: 83% size of source)
+   [crunch] Processing image to cache: C:\Users\Cilop002\Desktop\COMBML~1.GEO\res\drawable-hdpi\splash.png => C:\Users\Cilop002\Desktop\COMBML~1.GEO\bin\res\drawable-hdpi\splash.png
+   [crunch]   (processed image to cache entry C:\Users\Cilop002\Desktop\COMBML~1.GEO\bin\res\drawable-hdpi\splash.png: 45% size of source)
+   [crunch] Processing image to cache: C:\Users\Cilop002\Desktop\COMBML~1.GEO\res\drawable-ldpi\ic_launcher.png => C:\Users\Cilop002\Desktop\COMBML~1.GEO\bin\res\drawable-ldpi\ic_launcher.png
+   [crunch]   (processed image to cache entry C:\Users\Cilop002\Desktop\COMBML~1.GEO\bin\res\drawable-ldpi\ic_launcher.png: 0% size of source)
+   [crunch] Processing image to cache: C:\Users\Cilop002\Desktop\COMBML~1.GEO\res\drawable-ldpi\icon.png => C:\Users\Cilop002\Desktop\COMBML~1.GEO\bin\res\drawable-ldpi\icon.png
+   [crunch]   (processed image to cache entry C:\Users\Cilop002\Desktop\COMBML~1.GEO\bin\res\drawable-ldpi\icon.png: 83% size of source)
+   [crunch] Processing image to cache: C:\Users\Cilop002\Desktop\COMBML~1.GEO\res\drawable-ldpi\splash.png => C:\Users\Cilop002\Desktop\COMBML~1.GEO\bin\res\drawable-ldpi\splash.png
+   [crunch]   (processed image to cache entry C:\Users\Cilop002\Desktop\COMBML~1.GEO\bin\res\drawable-ldpi\splash.png: 45% size of source)
+   [crunch] Processing image to cache: C:\Users\Cilop002\Desktop\COMBML~1.GEO\res\drawable-mdpi\ic_launcher.png => C:\Users\Cilop002\Desktop\COMBML~1.GEO\bin\res\drawable-mdpi\ic_launcher.png
+   [crunch]   (processed image to cache entry C:\Users\Cilop002\Desktop\COMBML~1.GEO\bin\res\drawable-mdpi\ic_launcher.png: 0% size of source)
+   [crunch] Processing image to cache: C:\Users\Cilop002\Desktop\COMBML~1.GEO\res\drawable-mdpi\icon.png => C:\Users\Cilop002\Desktop\COMBML~1.GEO\bin\res\drawable-mdpi\icon.png
+   [crunch]   (processed image to cache entry C:\Users\Cilop002\Desktop\COMBML~1.GEO\bin\res\drawable-mdpi\icon.png: 83% size of source)
+   [crunch] Processing image to cache: C:\Users\Cilop002\Desktop\COMBML~1.GEO\res\drawable-mdpi\splash.png => C:\Users\Cilop002\Desktop\COMBML~1.GEO\bin\res\drawable-mdpi\splash.png
+   [crunch]   (processed image to cache entry C:\Users\Cilop002\Desktop\COMBML~1.GEO\bin\res\drawable-mdpi\splash.png: 45% size of source)
+   [crunch] Crunched 9 PNG files to update cache
+
+-package-resources:
+     [aapt] Creating full resource package...
+     [aapt]     (skipping dir '_assets' due to ANDROID_AAPT_IGNORE pattern '_*')
+     [aapt]     (skipping dir '_search' due to ANDROID_AAPT_IGNORE pattern '_*')
+     [aapt] Warning: AndroidManifest.xml already defines debuggable (in http://schemas.android.com/apk/res/android); using existing value in manifest.
+
+-package:
+[apkbuilder] Current build type is different than previous build: forced apkbuilder run.
+[apkbuilder] Creating geo2-debug-unaligned.apk and signing it with a debug key...
+
+-post-package:
+
+-do-debug:
+ [zipalign] Running zip align on final apk...
+     [echo] Debug Package: C:\Users\Cilop002\Desktop\COMBML~1.GEO\bin\geo2-debug.apk
+[propertyfile] Creating new property file: C:\Users\Cilop002\Desktop\COMBML~1.GEO\bin\build.prop
+[propertyfile] Updating property file: C:\Users\Cilop002\Desktop\COMBML~1.GEO\bin\build.prop
+[propertyfile] Updating property file: C:\Users\Cilop002\Desktop\COMBML~1.GEO\bin\build.prop
+[propertyfile] Updating property file: C:\Users\Cilop002\Desktop\COMBML~1.GEO\bin\build.prop
+
+-post-build:
+
+debug:
+
+BUILD SUCCESSFUL
+Total time: 49 seconds
+
+<DW>
+____________________
+set ANT_HOME=C:\PROGRA~2\Adobe\ADOBED~2.5\CONFIG~1\NATIVE~1\APACHE~1
+set ANDROID_HOME=C:\Users\Cilop002\Desktop\adt-bundle-windows-x86_64-20140702\sdk
+set JAVA_HOME=C:\PROGRA~2\Adobe\ADOBED~2.5\JDK
+set PATH=%JAVA_HOME%\bin;%PATH%
+cd C:\Users\Cilop002\Desktop\ADT-BU~1\sdk\PLATFO~1
+C:\Users\Cilop002\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe kill-server
+____________________
+</DW>
+
+Waiting for Android emulator to bootERROR: failed to launch Android emulator
